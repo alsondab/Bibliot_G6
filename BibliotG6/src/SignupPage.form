@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SignupPage">
+  <grid id="27dc6" binding="signupPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="25" y="20" width="515" height="731"/>
+    </constraints>
+    <properties>
+      <background color="-15851472"/>
+      <font name="Lucida Sans Unicode" size="18" style="1"/>
+      <foreground color="-332039"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="c7c10" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="26" style="1"/>
+          <foreground color="-332039"/>
+          <text value="Welcome To"/>
+        </properties>
+      </component>
+      <component id="e582c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="add.png"/>
+          <text value="NAME :"/>
+        </properties>
+      </component>
+      <component id="fc287" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="email.png"/>
+          <text value="EMAIL :"/>
+        </properties>
+      </component>
+      <component id="53226" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="key-symbol-in-horizontal-position.png"/>
+          <text value="Confirm Password :"/>
+        </properties>
+      </component>
+      <component id="39fdc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="243" height="66"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="20" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="account.png"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+      <component id="8d37f" class="javax.swing.JTextField" binding="tfName">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5753b" class="javax.swing.JTextField" binding="tfEmail">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d050f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="padlock.png"/>
+          <text value="Password :"/>
+        </properties>
+      </component>
+      <component id="731a" class="javax.swing.JPasswordField" binding="tfConfirmPassword">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="22883" class="javax.swing.JPasswordField" binding="tfPassword">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="979bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="location-pin.png"/>
+          <text value="ADDRESS :"/>
+        </properties>
+      </component>
+      <component id="eb7ab" class="javax.swing.JTextField" binding="tfAddress">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+        </properties>
+      </component>
+      <component id="b480a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="phone-call.png"/>
+          <text value="PHONE :"/>
+        </properties>
+      </component>
+      <component id="2e4bb" class="javax.swing.JTextField" binding="tfPhone">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="18" style="1"/>
+          <horizontalAlignment value="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="439d6" class="javax.swing.JButton" binding="btnCancel">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-13627864"/>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="bb09d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="28" style="1"/>
+          <foreground color="-332039"/>
+          <icon value="literature.png"/>
+          <text value="BibliotG6"/>
+        </properties>
+      </component>
+      <component id="5a356" class="javax.swing.JButton" binding="btnRegister">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-13627864"/>
+          <font name="Segoe Print" size="18" style="1"/>
+          <foreground color="-332039"/>
+          <text value="Register"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
