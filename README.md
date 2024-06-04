@@ -3,7 +3,7 @@ Système de Gestion de Bibliothèque⚡
 Bienvenue dans le référentiel du projet de système de gestion de bibliothèque ! Ce projet vise à développer un système informatisé 
 pour la gestion efficace des bibliothèques, permettant aux utilisateurs de rechercher, emprunter, retourner et gérer les livres de manière intuitive et efficace.
 
-Description
+Description du projet de système de gestion de bibliothèque
 
 Ce système de gestion de bibliothèque est conçu pour offrir les fonctionnalités suivantes :
 
