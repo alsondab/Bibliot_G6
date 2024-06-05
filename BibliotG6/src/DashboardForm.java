@@ -34,6 +34,7 @@ public class DashboardForm extends JFrame {
     private JLabel CardsIssueBooks;
     private JLabel CardsUser;
     private JLabel CardsDefaulterList;
+    private JLabel tfNotify;
     private PreparedStatement pst;
     private Connection conn;
     private Admins authenticatedAdmins;
@@ -133,7 +134,7 @@ public class DashboardForm extends JFrame {
                 manageUserFrame.pack();
                 manageUserFrame.setLocationRelativeTo(null); // Center the frame
                 manageUserFrame.setVisible(true);
-                // Hide the DashboardForm
+                dispose();
             }
         });
 
@@ -197,6 +198,14 @@ public class DashboardForm extends JFrame {
                 defaulterList.setVisible(true);
             }
         });
+        // Add a mouse click listener to tfNotify to open NotifyUsers window
+        tfNotify.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                NotifyUsers notifyUsers = new NotifyUsers(DashboardForm.this, DashboardForm.this, conn);
+                notifyUsers.setVisible(true);
+            }
+        });
 
         tfLogout.addMouseListener(new MouseAdapter() {
             @Override
@@ -205,6 +214,7 @@ public class DashboardForm extends JFrame {
                 System.exit(0);
             }
         });
+       
     }
 
     private void addHoverEffect(JLabel label) {
@@ -477,5 +487,8 @@ public class DashboardForm extends JFrame {
 
     public Connection getConnection() {
         return conn;
+    }
+    public JPanel getPanelMain() {
+        return dashboardPanel;
     }
 }
