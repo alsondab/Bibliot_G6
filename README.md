@@ -1,14 +1,13 @@
 Système de Gestion de Bibliothèque⚡
 
-Bienvenue dans le référentiel du projet de système de gestion de bibliothèque ! Ce projet vise à développer un système informatisé 
-pour la gestion efficace des bibliothèques, permettant aux utilisateurs de rechercher, emprunter, retourner et gérer les livres de manière intuitive et efficace.
+Bienvenue dans le référentiel du projet de système de gestion de bibliothèque ! Ce projet vise à développer un système informatisé pour la gestion efficace des bibliothèques, permettant a l'admin de d'ajouter ,rechercher, faire emprunter des livres au utilisateur aui veule emprunter, retourner et gérer les livres et les itulisateur de manière intuitive et efficace.
 
 Description du projet de système de gestion de bibliothèque
 
 Ce système de gestion de bibliothèque est conçu pour offrir les fonctionnalités suivantes :
 
 - Gestion des Livres : Ajouter, supprimer, mettre à jour et rechercher des livres dans la bibliothèque.
-- Gestion des Utilisateurs : Enregistrer et gérer les informations des utilisateurs, y compris les membres et le personnel de la bibliothèque.
+- Gestion des Utilisateurs : Enregistrer et gérer les informations des utilisateurs.
 - Emprunts et Retours : Suivre les emprunts de livres par les utilisateurs et gérer les retours.
 - Génération de Rapports : Générer des rapports sur les livres empruntés, les retards de retour.
 
@@ -16,9 +15,9 @@ Comment Utiliser
 
 1. Installation des Prérequis : Assurez-vous d'avoir installé
 les dépendances nécessaires répertoriées dans le fichier requirements.txt(Je ferais un Depot une fois le projet terminer pour ce fichier).
-2. Configuration de la Base de Données : Configurez votre base de données en suivant les instructions dans le fichier database_setup.sql.(Je ferais un Depot une fois le projet terminer pour ce fichier).
-3. Lancement de l'Application : Exécutez l'application à l'aide de la commande spécifiée dans le fichier run.py.
-4. Utilisation de l'Application : Accédez à l'application via votre navigateur Web en suivant l'URL spécifiée dans les instructions de lancement.
+1. Configuration de la Base de Données : Configurez votre base de données en suivant les instructions dans le fichier database_setup.sql.(Je ferais un Depot une fois le projet terminer pour ce fichier).
+2. Lancement de l'Application : Exécutez l'application à l'aide de la commande spécifiée dans le fichier run.py.
+3. Utilisation de l'Application : Accédez à l'application via votre bureau en suivant les instructions de lancement.
 
 Contributions
 
