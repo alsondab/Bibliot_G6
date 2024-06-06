@@ -102,6 +102,7 @@ public class DashboardForm extends JFrame {
         addHoverEffect(tfViewRecords);
         addHoverEffect(tfViewIssueBooks);
         addHoverEffect(tfDefaulterList);
+        addHoverEffect(tfNotify);
         addHoverEffect(tfLogout);
         addHoverEffect(tfDashboard);
         addHoverEffect(tfHomePage);
